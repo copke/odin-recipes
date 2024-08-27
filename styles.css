@@ -1,0 +1,41 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.heading {
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading-index {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipes-list {
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.recipes-list li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#link-instruct {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
