@@ -1,3 +1,9 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: blanchedalmond;
 }
@@ -5,10 +11,12 @@ body {
 .heading {
     font-size: 34px;
     font-family: 'Courier New', Courier, monospace;
+    margin: 10px 25px 10px;
 }
 
 .heading-index {
     text-align: center;
+    margin-top: 20px;
 }
 
 a {
@@ -16,11 +24,18 @@ a {
 }
 
 .recipes-list {
+    max-width: 600px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
     background-color: aliceblue;
     border: 2px solid black;
-    margin: 20px;
+    border-radius: 5px;
 }
 
+.recipes-list ul {
+    list-style-type: none;
+}
 .recipes-list li {
     margin: 5px;
     font-size: 18px;
@@ -28,13 +43,31 @@ a {
 
 #link-instruct {
     font-size: 20px;
-    margin-left: 20px;
     font-weight: bold;
+    margin: 10px 0 15px 20px;
 }
 
 img {
     border: 2px solid black;
     border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.container-lasagna {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.ingredients-lasagna {
+    margin: 10px 25px 10px 15px;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.ingredients-lasagna ul {
+    margin: 10px 35px;
+    background-color: antiquewhite;
 }
 
 
